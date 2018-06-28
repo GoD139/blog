@@ -1,0 +1,42 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+
+}
+
+
+.btn-outline-primary {
+    color:$blue;
+    background-color: transparent;
+    background-image: none;
+    border-color: $blue;
+}
+
+
+.content-wrap{
+    /*margin: 25px 0;*/
+    box-shadow: 0 1px 5px rgba(197, 197, 197, 0.9);
+}
+
+.content{
+    padding: 25px;
+
+}
+
+.comments
+{
+    margin: 50px 0;
+}
